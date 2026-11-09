@@ -1,6 +1,6 @@
 "use client";
 import {useEffect,useMemo,useState} from "react";
-import {Activity,ArrowRight,ArrowUpRight,BookOpen,CalendarDays,Check,CheckCircle2,ChevronDown,ChevronRight,Clock3,FileText,Filter,Flag,Flame,GraduationCap,LayoutDashboard,ListChecks,Plus,Search,Settings,Sparkles,Target,TrendingUp,Users, X, Zap, CircleDot, CalendarCheck, NotebookPen, BookMarked, Menu} from "lucide-react";
+import {Activity,ArrowRight,ArrowUpRight,BookOpen,CalendarDays,Check,CheckCircle2,ChevronDown,ChevronRight,Clock3,FileText,Filter,Flag,Flame,GraduationCap,LayoutDashboard,ListChecks,Plus,Search,Settings,Sparkles,Target,TrendingUp,Users, X, Zap, CircleDot, CalendarCheck, NotebookPen, BookMarked, Menu,Lightbulb} from "lucide-react";
 type Topic={id:number,title:string,done:boolean,priority:"High"|"Medium"|"Low"};
 type Subject={id:number,name:string,code:string,color:string,topics:Topic[],exam:string,goal:number};
 type Task={id:number,title:string,subject:string,date:string,done:boolean};
